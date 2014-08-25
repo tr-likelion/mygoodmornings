@@ -6,7 +6,6 @@ $(function() {
         chatPage = $('.chat.page');
 
     /*
-    //$.post는 아래의 형태와 같습니다.
     $.ajax({
       type: "POST",
       url: url,
