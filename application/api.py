@@ -13,5 +13,5 @@ p = Pusher(
 @app.route('/api/echo', methods=['GET', 'POST'])
 def test_message():
 	data = request.form
-	p['testpusher'].trigger('echo', {'message' : data['message']})
+	p['morningpusher'].trigger('echo', {'message' : data['message']})
 	return jsonify(status=0)
